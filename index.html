@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mathieu BOREL - Motherfucking Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>C'est mon putain de portfolio</h1>
+            <aside>Et il est putain de parfait</aside>
+        </header>
+
+        <h3>Sérieusement, qu'est-ce que vous voulez de plus ?</h3>
+        <p>Pas de framework JS de 50 Mo. Pas de React, pas de typescript, pas de trackers qui pompes ta batterie.</p>
+        <p>Juste du HTML brut, parce qu'en embarqué, si ça n'a pas besoin d'être là, on le vire.</p>
+        <p>Ce site pèse moins de 10 Ko. Il charge plus vite que le temps qu'il faut à ton processeur pour lever une interruption.</p>
+        <p>Inspiré par le légendaire <a href="https://motherfuckingwebsite.com" target="_blank" rel="noopener">motherfuckingwebsite.com</a>, ce site est là pour aller à l'essentiel.</p>
+
+        <main>
+            <section id="competences">
+                <h2>Ce que je sais faire (sans surcouche)</h2>
+                <p>Je fais tourner du code là où la mémoire se compte en kilo-octets.</p>
+
+                <ul>
+                    <li>
+                        <strong>Langages :</strong> C, C++20, Rust, NASM (x86), Python, Bash<br>
+                        <small>→ Du bas niveau performant (C/C++/Rust/NASM) pour le hardware, et du Python/Bash pour automatiser sans cliquer partout.</small>
+                    </li>
+                    <li>
+                        <strong>Embarqué &amp; Matériel :</strong> ARM Cortex-M (RP2040), bus série (I2C, SPI, UART), Modbus<br>
+                        <small>→ Manipulation directe des registres, gestion des interruptions et communication industrielle fiable.</small>
+                    </li>
+                    <li>
+                        <strong>Robotique &amp; Système :</strong> POSIX (Sockets, IPC, pthread), ROS 2 (ros2_control, hardware interfaces), Gazebo<br>
+                        <small>→ Multi-threading propre, contrôle temps réel ultra-basse latence et simulation avant de tester sur vrai matos.</small>
+                    </li>
+                    <li>
+                        <strong>Outils &amp; Debug :</strong> Git, CMake, Make, GDB, Valgrind, Docker<br>
+                        <small>→ Builds reproductibles, traque des segfaults au plus profond de la pile et zéro fuite mémoire.</small>
+                    </li>
+                </ul>
+            </section>
+
+
+
+            <section id="experience">
+                <h2>Parcours &amp; Expériences (là où la prod ne casse jamais)</h2>
+
+                <article>
+                    <h3>Supervision Industrielle — Vertech’</h3>
+                    <p><em>03/2025 – 08/2025 | Chalon-sur-Saône</em></p>
+                    <p>Développement de fonctionnalités sur une grosse appli de supervision en <code>C++</code> / <code>Qt</code>. Travail en équipe agile de 6 personnes sans casser la prod.</p>
+                </article>
+
+                <article>
+                    <h3>Outillage &amp; DSL — Boostheat</h3>
+                    <p><em>07/2023 – 12/2023 | Lyon</em></p>
+                    <p>Conception de langages sur-mesure (DSL) avec <code>JetBrains MPS</code>. Résultat : les équipes non-techniques modélisent leurs systèmes et le code <code>C#</code> / <code>XML</code> est généré automatiquement. Plus de boilerplate copié-collé à la main.</p>
+                </article>
+            </section>
+
+
+
+            <section id="projets">
+                <h2>Projets (Garantis sans segfault)</h2>
+
+                <article>
+                    <h3>
+                        <a href="https://github.com/lucy-robotics" target="_blank" rel="noopener">lucy</a>
+                        — Epitech Innovative Project
+                    </h3>
+                    <p>Suite logicielle modulaire et temps réel pour le contrôle de robots complexes.</p>
+                    <ul>
+                        <li><strong>Firmware Rust :</strong> Code portable tournant sur cible bare-metal (<code>RP2040</code>) et en natif (migration depuis une stack <code>C/C++</code> micro-ROS).</li>
+                        <li><strong>Bridge Temps Réel :</strong> Communication <code>Rust</code> ↔ <code>ROS 2</code> ultra-basse latence avec <code>ros2_control</code> via SHM zero-copy.</li>
+                        <li><strong>Protocole Série (SoA) :</strong> Conception d'un protocole optimisé pour maximiser la bande passante et garantir les boucles de contrôle.</li>
+                        <li><strong>Banc de test :</strong> Déploiement et validation sur plateformes robotiques réelles (<code>InMoov</code>, <code>SO-ARM101</code>).</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Débogueur Linux 64 bits</h3>
+                    <p>Prototype de débogueur système x64 codé de zéro pour explorer les entrailles de Linux.</p>
+                    <ul>
+                        <li><strong>Stack :</strong> <code>C</code> / <code>C++</code>, API système POSIX / Linux.</li>
+                        <li><strong>Sous le capot :</strong> Parsing des formats <code>ELF</code> / <code>DWARF</code>, gestion des points d'arrêt (breakpoints), inspection directe de la mémoire et des registres processeur.</li>
+                    </ul>
+                </article>
+            </section>
+
+
+
+            <section id="formation">
+                <h2>Formation (RTFM)</h2>
+
+                <article>
+                    <h3>Expert en Informatique - Epitech</h3>
+                    <p><em>2022 – 2027</em></p>
+                    <p>C, C++, UNIX, architecture logicielle et survivant de la Piscine.</p>
+                </article>
+
+                <article>
+                    <h3>Échange universitaire - UQAC (Chicoutimi, Canada)</h3>
+                    <p><em>2025 – 2026</em></p>
+                    <p>Systèmes d'information, algorithmique et programmation par -30°C (au cas où ça chaufferait trop).</p>
+                </article>
+            </section>
+
+
+
+            <section id="contact">
+                <h2>Tu veux m'embaucher ou discuter C/C++/Rust ?</h2>
+                <p>Pas de formulaire JS lourd ni d'API tierce. Envoie-moi un mail :</p>
+                <p><strong>Email :</strong> <a href="mailto:portfolio.6e5m0@passmail.net">portfolio.6e5m0@passmail.net</a></p>
+                <p><strong>Linkedin :</strong> <a href="https://www.linkedin.com/in/mathieu-borel/" target="_blank" rel="noopener">mathieu-borel</a></p>
+                <p><strong>GitHub :</strong> <a href="https://github.com/m-brl" target="_blank" rel="noopener">m-brl</a></p>
+            </section>
+
+            <aside style="margin-top: 40px; font-size: 0.9em; opacity: 0.85;">
+                <p>
+                    <em><strong>PS :</strong> Si cette sobriété vous déprime et qu'il vous faut votre dose de WebGL à 60 FPS pour ne pas être en manque, allez faire un tour sur le portail de notre projet 
+                    <a href="https://portal.lucy-robotics.com" target="_blank" rel="noopener"><strong>lucy</strong></a>. 
+                    Un monstre de 20 Mo qui transforme votre GPU en radiateur d'appoint... mais bordel, qu'est-ce qu'il est cool.</em>
+                </p>
+            </aside>
+            <footer>
+                <hr>
+                <p>
+                    <strong>100 % Pur HTML.</strong> Aucun JavaScript. Aucun cookie. Aucun tracker.<br>
+                    Ce site pèse moins qu'une seule icône SVG.
+                </p>
+                <p>
+                    <small>© 2026 Mathieu BOREL — Fait au clavier avec Vim. Propulsé par un serveur qui ne chauffe même pas.</small>
+                </p>
+            </footer>
+        </main>
+
+    </body>
+
+    <!-- Google Analytics -->
+    <script>
+    // VOYEUR !
+    // Tu croyais vraiment que j'allais mettre du JS de 100 Ko et des cookies pour traquer ton IP ?
+    // Pas de Google Analytics ici. Si tu veux me faire savoir que tu es venu, envoie-moi un mail.
+    </script>
+</html>
